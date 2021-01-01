@@ -12,18 +12,13 @@
 
 #### A linear equations in the variables
 
+![images_1](./_images/2021-01-01-01.gif)
 
-$$
-a_{1}x_{1} + a_{2}x_{2} + ...+a_{n}x_{n} = b
-$$
 * coefficients : a1, a2, ..., an
 
 * coefficients와 b는 실수 또는 허수
 
-
-$$
-4x_{1} - 5x_{2} = x_{1}x_{2}
-$$
+![images_2](./_images/2021-01-01-02.gif)
 
 * 우측 항 x1x2 때문에 linear equation이 아님!
 
