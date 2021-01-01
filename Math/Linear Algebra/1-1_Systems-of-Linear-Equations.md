@@ -12,20 +12,17 @@
 
 #### A linear equations in the variables
 
-![images_1](./_images/2021-01-01-01.gif)
+![images_1](./images/1-1-01.gif)
 
 * coefficients : a1, a2, ..., an
 
 * coefficients와 b는 실수 또는 허수
 
-![images_2](./_images/2021-01-01-02.gif)
+![images_2](./images/1-1-02.gif)
 
 * 우측 항 x1x2 때문에 linear equation이 아님!
 
-
-$$
-x_{2} = \sqrt{x_{1}} - 6
-$$
+![images_3](./images/1-1-03.gif)
 
 * 우측 항 루트 x1 때문에 linear equation이 아님
 
@@ -35,13 +32,9 @@ $$
 
 * 한 개 또는 한 개 이상의 linear equation의 집합
 
-$$
-x_{1} - 2x_{2} = -1
-$$
+![images_2](./images/1-1-04.gif)
 
-$$
--x_{1} + 3x_{2} = 3
-$$
+![images_2](./images/1-1-05.gif)
 
 * Solution set: linear system이 있을 때, 모든 가능한 해의 집합
 
@@ -61,104 +54,55 @@ $$
 
 ##### Example 1
 
-$$
-x_{1} - 2x_{2} + x_{3} = 0
-$$
+![images_6](./images/1-1-06.gif)
 
-$$
-2x_{2} - 8x_{3} = 8
-$$
+![images_7](./images/1-1-07.gif)
 
-$$
--4x_{1} + 5x_{2} + 9x_{3} = -9
-$$
+![images_8](./images/1-1-08.gif)
 
 
 
 * coefficient matrix (3×3)
 
-$$
-\begin{bmatrix}
-1 & -2 & 1 \\
-0 & 2 & -8 \\
--4 & 5 & 9
-\end{bmatrix}
-$$
+![images_9](./images/1-1-09.gif)
 
 
 
 * augmented matrix (3×4)
 
-$$
-\begin{bmatrix}
-1 & -2 & 1 & 0\\
-0 & 2 & -8 & 8\\
--4 & 5 & 9 & -9
-\end{bmatrix}
-$$
+![images_10](./images/1-1-10.gif)
 
 
 
 * replacement : row를 곱해서 다른 row에 더해 주는 행위
 * scaling : 특정 row에 어떤 특정 값을 곱하거나 나누는 행위
 
-
-$$
-\begin{bmatrix}
-1 & 0 & 0 & 29 \\
-0 & 1 & 0 & 16 \\
-0 & 0 & 1 & 3
-\end{bmatrix}
-$$
+![images_11](./images/1-1-11.gif)
 
 
 
 ##### Example 2
 
-$$
-x_{2} - 4x_{3} = 8
-$$
+![images_12](./images/1-1-12.gif)
 
-$$
-2x_{1} - 3x_{2} + 2x_{3} = 1
-$$
+![images_13](./images/1-1-13.gif)
 
-$$
-5x_{1} - 8x_{2} + 7x_{3} =1
-$$
+![images_14](./images/1-1-14.gif)
 
-$$
-\begin{bmatrix}
-0 & 1 & -4 & 8 \\
-2 & -3 & 2 & 1 \\
-5 & -8 & 7 & 1
-\end{bmatrix}
-$$
+![images_15](./images/1-1-15.gif)
 
 
 
 * interchange : 두 row를 교환하는 행위
 
-$$
-\begin{bmatrix}
-2 & -3 & 2 & 1 \\
-0 & 1 & -4 & 8 \\
-0 & 0 & 0 & 5 \over 2
-\end{bmatrix}
-$$
+![images_16](./images/1-1-16.gif)
 
 
-$$
-2x_{1} - 3x_{2} - 2x_{3} = 1
-$$
+![images_17](./images/1-1-17.gif)
 
-$$
-x_{2} - 4x_{3} = 8
-$$
+![images_18](./images/1-1-18.gif)
 
-$$
-0 = {5 \over 2}
-$$
+![images_19](./images/1-1-19.gif)
 
 * **inconsistent!!** 해당 linear system은 해가 없다.
 
